@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sports</title>
+    <link rel="stylesheet" href="interfacesports.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          #Health{
+            
+            color: #000;
+            font-weight:700;
+         }
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+      </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href=""><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                   
+                </div>
+                
+            </header>
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <h1 class="tunisia">In Tunisia</h1>
+            <div class="news">
+                <div class="block">
+                    <div class="title">
+                        <h1>Tunisian Youth Lead COVID-19 Response</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/oumaima.jpg" alt="">
+    
+                            <p>Oumaima Dhahri, a youth participant in USAID's Ma3an Tunisia program, decided to put her abilities to use to help her country’s response to the spread of COVID-19.
+                                Oumaima shared how the Ma3an project influenced her COVID-19 response initiative: “The work to make masks has been intense. Each time my team has faced conflict, though, I’ve been able to apply skills learned from Ma3an. I also remember advice from the Ma3an team that has helped me manage team dynamics and communicate better. Ma3an was an enriching learning experience that’s paying off for me today.”
+
+"I hope that we can all ‘shield-up’ against COVID-19. Tunisian youth are capable of so much!" – Oumaima Dhahri.
+                            </p>
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>WOMEN-CARE : Programme de dépistage du cancer du col de l'utérus en unité mobile pour les femmes en Tunisie</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/tun.png" alt="">
+    <p>Nous sommes ravis d'annoncer que le Centre tunisien de santé publique a reçu un financement du gouvernement australien pour lancer un programme de dépistage du cancer du col de l'utérus en unité mobile en Tunisie. Le programme sera mis en œuvre en partenariat avec l'Office national de la famille et de la population (ONFP) et l'Association tunisienne de lutte contre les maladies sexuellement transmissibles et le sida (ATL MST SIDA Tunis).
+        Le cancer du col de l'utérus est un problème de santé publique important en Tunisie, où il est le deuxième cancer le plus fréquent chez les femmes</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>HEALTHCoronavirus-Review of the week of April 10 to 16,<br> 2023: 09 deaths and 221 new contaminations</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/cotun.jpg" alt="">
+    <p>The Ministry of Health announced that 9 deaths and 221 new contaminations by the Coronavirus were recorded from April 10 to 16, 2023.
+
+        The death toll stood at 29,378 and that of positive cases reached 1,152,483.
+        
+        1049 analyzes were performed.
+        
+        The amount of analyzes carried out since the start of the pandemic is 5,009,089.
+        
+        The positivity rate of the tests carried out reached: 21.06%.
+        
+        According to the same source, the number of new patients admitted to hospitals and private clinics reached 31 until April 16, 2023.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h1 class="titworld">worldwide</h1>
+            <div class="worldwide">
+                <div class="block">
+                    <div class="title">
+                        <h1>WHO officially launches mRNA vaccine tech hub in Cape Town?</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/corona.jpg" alt="">
+    <p>Global pharmaceutical firms, including Moderna and Pfizer, had declined to provide the technical know-how to replicate their vaccines in Africa.
+        The World Health Organization (WHO) has officially launched its mRNA vaccine technology hub in Cape Town, a facility established during the COVID-19 pandemic to help poorer countries struggling to access life-saving medication.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>China reports first human death due to H3N8 bird flu</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/chine.gif" alt="">
+    <p>The WHO says the woman, who died in March, probably contracted the virus at a live poultry market and the risk of further spread is low.
+
+        A 56-year-old woman in southern China has died after testing positive for H3N8 avian influenza, marking the first human death from that strain of bird flu, according to the World Health Organization (WHO).</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Health- Emotional abuse: Relationship with an aggressor, how to act?</h1>
+                    </div>
+                    <div class="new">
+                        <img src="health/abuse.jpg" alt="">
+    
+<p>Abusive relationships are prevalent these days. There are a lot of questions on the Internet: how to get out of the Karpman triangle, overcome physical or emotional abuse, overcome gaslighting in a relationship.
+
+    A striking example of abuse: psychological violence in the family. This is moral abuse. Unfortunately, family conflicts are usually not discussed, so living with an alcoholic seems to be the norm.
+    
+    What is the abuser afraid of, how to defend personal boundaries, and what to do when you realize a male abuser is a narcissist in a relationship? Let's try to answer these questions.</p>                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="#">technologies</a></li>
+                    <li><a href="#">sports</a></li>
+                    <li><a href="#">health</a></li>
+                    <li><a href="#">education</a></li>
+                    <li><a href="#">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+        
+</body>
+</html>

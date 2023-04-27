@@ -1,0 +1,57 @@
+  .creators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: cover;
+  }
+  
+  .creator {
+    position: relative;
+    top: 250px;
+    left: 0px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .creator img {
+    width: 97.5%;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .creator img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  .creator h2{
+    color: #FFFFFF;
+    font-family: 'Belgrano';
+font-style: normal;
+font-weight: 400;
+    font-size: 40px;
+    text-shadow: #D9D9D9;
+  }
+  .creator p {
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+  
+  .creator h3 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.creator:hover h3,
+.creator:hover p {
+  opacity: 1;
+  
+}   

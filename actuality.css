@@ -1,0 +1,238 @@
+
+    .header{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+.logo img{
+    width: 240px;
+height: 62px;
+padding-right: 0px;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+list-style: none;
+padding-right: 80px;
+width: 102px;
+height: 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.login{
+    position: relative;
+    left: -50px;
+    color: #bcc6de64;
+    background-color: #0000008b;
+    width: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#login{
+    position: relative;
+    left:12px;
+    font-size: 25px;
+}
+.login :hover{
+    color: #fc0000;
+    transition: 1s;
+    transform: scale(1.05);
+    opacity: 1;
+}
+#Actualities{
+    padding-right: 70px;
+    padding-left: 20px;   
+}
+#Sports{
+    padding-right: 0px;
+    padding-left: 30px;  
+}
+#Education{
+    padding-left: 40px; 
+}
+#Health{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.navbar a{
+    text-decoration-line: none;
+}
+li:hover { 
+    color: #000;
+    transform: scale(1.2);
+    transition: 1s;
+
+ }
+.nav{
+    position: absolute;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.search{
+    padding-bottom: 30px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+width: 1519px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: rgba(224, 224, 224, 0.49);
+border-radius: 0px 0px 20px 20px;
+}
+/*s1*/
+.s1{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .s1 input{
+        position: relative;
+        top: 250px;
+        left: 430px;
+        width: 500px;
+        height: 40px;
+      background-color:rgba(128, 128, 128, 0.564);
+      border-radius: 20px;
+      border-color: none;
+    }
+   
+    .s1 button{
+        
+        position: relative;
+        display:flex;
+        justify-content: center;
+        padding: 10px 70px;
+        border-radius: 10px;
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 210px;
+        margin-left: 950px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        
+      }
+      
+      .s1 button:hover {
+        background-color: red;
+        
+        border-radius: 5px;
+        box-shadow: 0 0 5px red,
+                    0 0 25px red,
+                    0 0 50px red,
+                    0 0 100px red;
+      }
+    .s1 button:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, red);
+        animation: btn-anim1 1s linear infinite;
+      }
+      
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+        50%,100% {
+          left: 100%;
+        }
+      }
+      
+      .s1 button:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, red);
+        animation: btn-anim2 1s linear infinite;
+        animation-delay: .25s
+      }
+      
+      @keyframes btn-anim2 {
+        0% {
+          top: -100%;
+        }
+        50%,100% {
+          top: 100%;
+        }
+      }
+      
+      .s1 button:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, red);
+        animation: btn-anim3 1s linear infinite;
+        animation-delay: .5s
+      }
+      
+      @keyframes btn-anim3 {
+        0% {
+          right: -100%;
+        }
+        50%,100% {
+          right: 100%;
+        }
+      }
+      
+      .s1 button:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, red);
+        animation: btn-anim4 1s linear infinite;
+        animation-delay: .75s
+      }
+      
+      @keyframes btn-anim4 {
+        0% {
+          bottom: -100%;
+        }
+        50%,100% {
+          bottom: 100%;
+        }
+      }
+
+/*S2*/
+.s2{
+    position:absolute;
+    left: 0;
+    top: 500px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to left, red, black);
+}

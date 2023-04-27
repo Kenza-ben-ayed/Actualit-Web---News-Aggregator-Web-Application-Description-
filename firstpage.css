@@ -1,0 +1,372 @@
+.sec1{
+    position: absolute;
+    width: 1519px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    }
+    .header{
+        position: fixed;
+        z-index: 1;
+    }
+.logo img{
+    width: 240px;
+height: 62px;
+padding-right: 0px;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+list-style: none;
+padding-right: 80px;
+width: 102px;
+height: 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.login{
+    position: relative;
+    left: -50px;
+    color: #bcc6de64;
+    background-color: #0000008b;
+    width: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#login{
+    position: relative;
+    left:12px;
+    font-size: 25px;
+}
+.login :hover{
+    color: #fc0000;
+    transition: 1s;
+    transform: scale(1.05);
+    opacity: 1;
+}
+#Actualities{
+    padding-right: 70px;
+    padding-left: 20px;   
+}
+#Sports{
+    padding-right: 0px;
+    padding-left: 30px;  
+}
+#Education{
+    padding-left: 40px; 
+}
+#Health{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.navbar a{
+    text-decoration-line: none;
+}
+li:hover { 
+    color: #000;
+    transform: scale(1.2);
+    transition: 1s;
+
+ }
+.nav{
+    position: absolute;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.search{
+    padding-bottom: 30px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+width: 1519px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: rgba(224, 224, 224, 0.49);
+border-radius: 0px 0px 20px 20px;
+}
+.icon{
+    color: aqua;
+}
+
+.span{
+    font-family: 'Brawler';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+text-shadow: 10px -10px 5px #000000;
+line-height: 122px;
+
+color: #FF0404;
+}
+.text{
+    position: absolute;
+width: 900px;
+left: 22px;
+top: 50px;
+
+font-family: 'Belgrano';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 127px;
+
+color: #FFFFFF;
+}
+.pa{
+    position: absolute;
+
+left: 22px;
+top: 360px;
+
+font-family: 'Brawler';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 61px;
+
+color: #FFFFFF;
+}
+.sign{
+    position: absolute;
+width: 370px;
+height: 93px;
+left: 1022px;
+top: 600px;
+
+background: #D9D9D9;
+opacity: 0.6;
+border-radius: 30px;
+font-family: 'c';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 85px;
+
+color: #000000;
+cursor: pointer;
+
+}
+.sign2{
+    cursor: pointer;
+}
+/*section2*/
+.sec2{
+    background-color: #b8aeae;
+    overflow: hidden;
+    width: 1519px;
+    height: 800px;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+}
+.barre{
+    position: absolute;
+    top: -120px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barre p{
+    position: relative;
+    top: -40px;
+    width: 450px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+.barre h3{
+    position: relative;
+    font-family: 'Belgrano';
+font-style:oblique;
+font-weight: bold;
+
+font-size: 60px;
+line-height: 50px;
+text-shadow: 5px -3px 5px #000000;
+color: #c21616;
+}
+.barre p span{
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #ff004c;
+
+}
+.creators{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.obj{
+    padding-left: 80px;
+}
+.tnav{
+    position: absolute;
+    top:400px;
+    left: 450px;
+    font-size: 30px;
+
+}
+.tnav h2{
+    position: relative;
+    left: 85px;
+    font-family: 'Oswald', sans-serif;
+}
+.tnav h3{
+    animation: move 2s ease-in-out infinite;
+    font-style: oblique;
+    color: #8c0c0c;
+   
+  font-weight: lighter;
+}
+@keyframes move {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.tnav input{
+    position: relative;
+    left: -100px;
+
+
+    background: #00000000;
+    opacity: 0.;
+    border-radius: 30px;
+    font-family: 'Brawler';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 85px;
+    border-color: #c21616;
+    color: #ba3737;
+    
+}
+/*footer*/  
+  .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    width: 1519px;
+    height: 300px;
+    position:absolute;
+    top: 1700px;
+    left: 0px;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 0px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:-30;
+	bottom: -10px;
+	background-color: #e91e1e;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 5px;
+}
+.footer-col ul li a{
+    position: relative;
+    left: -40px;
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #d3cfcf;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #0048ff;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

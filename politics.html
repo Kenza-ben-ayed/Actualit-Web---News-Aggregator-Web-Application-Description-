@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politics</title>
+    <link rel="stylesheet" href="interfacesports.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .block p{
+position: relative;
+top: -100px;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          #Politics{
+            
+            color: #000;
+            font-weight:700;
+         }
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+      </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href="interfacesport.html"><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a> 
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                   
+                </div>
+                
+            </header>
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <h1 class="tunisia">In Tunisia</h1>
+            <div class="news">
+                <div class="block">
+                    <div class="title">
+                        <h1>At least 10 people from sub-Saharan Africa drown off Tunisia</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/7AR9.gif" alt="">
+                        <p>The past month has seen a sharp increase in refugee and migrant boats trying to reach the Italian coast from Tunisia. The rise has also led to a spike in drownings because the vessels used for the Mediterranean crossings are often rickety, overcrowded and have unreliable engines. In March, at least 52 people died and 70 went missing in similar disasters.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>HRW calls on Tunisia to release ex-PM Laarayedh</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/ALAM.gif" alt="">
+                        <p>Human Rights Watch (HRW) has denounced the charges against former Tunisian Prime Minister Ali Laarayedh and called for his immediate release. Laarayedh, 68, is vice-president of the opposition Ennahda party, in political opposition to President Kais Saied. “Based on the available information, Laarayedh’s prosecution seems like one more example of President Saied’s authorities trying to silence leaders of the Ennahda party and other opponents by tarring them as terrorists,” Salsabil Chellali, HRW’s Tunisia director, said in a statement on Tuesday.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Tunisia’s President Saied reappears after health rumours</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/KAIS.gif" alt="">
+                        <p>Tunisian President Kais Saied has appeared in a video posted on his official Facebook page, dismissing “mad” reports over his health following almost two weeks with no public engagements. “These people deserve nothing but contempt,” Saied said in the video posted late on Monday, referring to his political rivals The North African country’s main opposition coalition had earlier pressed the government to explain Saied’s public “absence”, saying it had information that he was sick. “The president is absent for two or three days, he gets a cold and that becomes a problem, a power vacuum?,” Saied said.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h1 class="titworld">worldwide</h1>
+            <div class="worldwide">
+                <div class="block">
+                    <div class="title">
+                        <h1>Labor and economy</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/ECO.jpg" alt="">
+                        <p>In one of the most contentious moments of a March 29 Senate hearing examining allegations that Starbucks intimidated and fired workers trying to unionize, the shadowy world of well-paid union-busters was thrust into the spotlight. Bob Casey (D-Pa.) confronted former Starbucks CEO Howard Schultz over the coffee company’s hiring of Littler Mendelson, the country’s largest employment and labor law firm devoted exclusively to representing management. “[It’s] one of the largest and most notoriously union-busting firms in the country,” Casey said, noting that the coffee giant can write off as a business expense on its taxes the millions it pays Littler Mendelson to aid Starbucks in its anti-union efforts. </p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Is Taiwan Worth Defending?</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/TAI.jpg" alt="">
+                        <p>China’s leaders have long been obsessed with Taiwan because its very existence as a thriving liberal democracy refutes the central premise of the Chinese authoritarian regime. That is why the United States must come to Taiwan’s defense in the event that Chinese President Xi Jinping decides to attack the island.
+                            NEW YORK – No one seems to know how the United States would react if China were to invade Taiwan. For decades, US leaders did all they could to avoid this question. Then, in September of last year, President Joe Biden seemed to have ended Washington’s policy of “strategic ambiguity” when he said that US troops would defend the island in the event of “an unprecedented attack.” But almost immediately after Biden spoke, White House officials backtracked, insisting that US policy on Taiwan had not changed.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>war in ukraine latest news</h1>
+                    </div>
+                    <div class="new">
+                        <img src="politic/SOURIA.jpg" alt="">
+                        <p>China’s leaders have long been obsessed with Taiwan because its very existence as a thriving liberal democracy refutes the central premise of the Chinese authoritarian regime. That is why the United States must come to Taiwan’s defense in the event that Chinese President Xi Jinping decides to attack the island.
+                            NEW YORK – No one seems to know how the United States would react if China were to invade Taiwan. For decades, US leaders did all they could to avoid this question. Then, in September of last year, President Joe Biden seemed to have ended Washington’s policy of “strategic ambiguity” when he said that US troops would defend the island in the event of “an unprecedented attack.” But almost immediately after Biden spoke, White House officials backtracked, insisting that US policy on Taiwan had not changed.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="#">technologies</a></li>
+                    <li><a href="#">sports</a></li>
+                    <li><a href="#">health</a></li>
+                    <li><a href="#">education</a></li>
+                    <li><a href="#">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+        
+</body>
+</html>

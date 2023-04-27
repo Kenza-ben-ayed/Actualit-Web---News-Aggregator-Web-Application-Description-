@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKHBARNA</title>
+    <link rel="icon" href="akhbarna.png" />.
+    <link rel="stylesheet" href="firstpage.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brawler:wght@700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brawler:wght@700&family=K2D:ital,wght@1,500&family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    #myIframe {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        overflow: hidden;
+    }
+    .sear {
+        display: block;
+        margin: auto;
+        cursor: pointer;
+      }
+      .no{
+    
+        display: none;
+        margin: auto;
+        cursor: pointer;
+      }
+      .x img{
+        position: absolute;
+        top: -30px;
+        right: 40px;
+        width: 50px;
+        height: 200px;
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+  </style>
+  <script>
+    function showIframe() {
+      // Get the iframe element by its ID
+      var iframe = document.getElementById('myIframe');
+      var x=document.getElementById('no');
+      // Set the iframe source to the desired URL
+      iframe.src = 'searchpage.html';
+      // Show the iframe by changing its display property
+      iframe.style.display = 'block';
+      no.style.display = 'block';
+    }
+    function dontshowIframe() {
+        // Get the iframe element by its ID
+        var iframe = document.getElementById('myIframe');
+        var x=document.getElementById('no');
+        // Set the iframe source to the desired URL
+        iframe.src = 'searchpage.html';
+        // Show the iframe by changing its display property
+        iframe.style.display = 'none';
+        no.style.display = 'none';
+        
+      }
+     
+  </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <img src="akhbarna.png" alt="">
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href="interfacesport.html"><li id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                        <div class="login">
+                            <a href="login.html"><li id="login">LOGIN</li></a></div>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+            
+        </header>
+        <main>
+            <div class="containt">
+                <div class="text">
+                    <h1>
+                        Breaking News <span class="span">Akhbarna</span>  is Here!
+                    </h1>
+                </div>
+                
+                <div class="pa">
+                    <p>
+                        Welcome to Akhbarna,<br> the first official students’ news’ <br> website, <br> This website is set only for news <br> that concerns students “US”.
+                    </p>
+                </div>
+            </div>
+            <a href="signup.html"><input class="sign" type="button" value="Sign-up"></a>
+        </main>
+       </section>
+       <section class="sec2">
+        <div class="barre">
+        <div class="about">
+            <div class="tabout">
+            <h3>About Akhbarna :</h3>
+            </div>
+        <div class="pab">
+            <p>"Akhbarna" was created by students who wants to finally be able to read news that concerns them, So here came the idea Akhbarna to 
+                make News and Actualities more interesting for us, not only students but also youth. 
+                who knows maybe with akhbarna we can build a STRONG generation.  </p>
+        </div>
+        </div>
+        <div class="obj">
+            <div class="tobj">
+            <h3>Our Objectifs :</h3>
+            </div>
+        <div class="pobj">
+            <p>"Akhbarna" was created by students who wants to finally be able to read news that concerns them, So here came the idea Akhbarna to 
+                make News and Actualities more interesting for us, not only students but also youth. 
+                who knows maybe with akhbarna we can build a STRONG generation.  </p>
+        </div>
+        </div>
+        <div class="creators">
+            <div class="tc">
+            <h3>Creators' Team :</h3>
+            </div>
+        <div class="pc">
+            <p>The founder of the project is <span class="cr">Kenza BEN AYED</span> , who is responsible for direction of the project. <br>
+                <span class="cr">Farah MEKKI</span> serves as the journalist responsible for researching and reporting on the topics related to the project. <br>
+                <span class="cr">Asma BOURAOUI</span> is the marketing responsible of the project to increase its visibility and reach.<br>
+                <span class="cr">Aziz SAGAAMA</span> is the designer, responsible for the aesthetic and visual elements of the project. <br>
+                  Together, this team brings their unique skills and expertise to make the project successful. </p>
+        </div>
+        </div>
+    </div>
+        <div class="tnav">
+            <h3>Join us and start your journey with Akhbarna</h3>
+            <h2> Top News for this week!</h2>
+            <a href="signup.html"><input class="sign2" type="button" value="Click here to start your journey with us"></a>
+        </div>
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="tachnologie.html">technologies</a></li>
+                    <li><a href="interfacesport.html">sports</a></li>
+                    <li><a href="health.html">health</a></li>
+                    <li><a href="education.html">education</a></li>
+                    <li><a href="politics.html">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+          
+      
+</body>
+</html>

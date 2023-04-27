@@ -1,0 +1,59 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Brawler:wght@700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo">
+        <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+    </div>
+     
+    <form onsubmit="Connect()">
+        <fieldset>
+            <div class="user"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg></div>
+    <div class="box">
+       <div class="name">
+        <input class="a" id="name" type="text"class="form" placeholder="First Name">
+        <input class="a" id="lname" type="text"class="form" placeholder="Last Name">
+    </div>
+<div class="mail"><input class="a" type="email"class="form" id="email" placeholder="Email ID">
+    <input class="a" id="bday"  type="date"class="form" placeholder=""></div>
+           
+
+
+          <div class="password">
+            <input class="a" type="password"class="form" id="password" placeholder="Paswword">
+          <input class="a" type="password"class="form" id="pass2" placeholder="Confirme Pasword">
+          </div>
+          <div class="input">
+            <center><label class="jomla" for="">ID verification:(student card or national ID card)</label></center>
+            <label class="f1" for="f1">Front-side of the card</label><input id="f1" type="file" class="scan" ><br>
+            <label class="f2" for="f2">Back-side of the card</label><input id="f2" type="file" class="scan" ></div>
+           
+         
+           <div class="submit">
+           <a onclick="Connect()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </div>
+
+        </fieldset>
+        <div class="logintext">
+            <h3>Sign up</h3>
+       </div>
+
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./create.js"></script>
+</body>
+</html>

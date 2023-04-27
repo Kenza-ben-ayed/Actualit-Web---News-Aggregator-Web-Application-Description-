@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>technologies</title>
+    <link rel="stylesheet" href="interfacesports.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          #Technologies{
+            
+           color: #000;
+           font-weight:700;
+        }
+        .block p{
+            position: relative;
+            top: -90px;}
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+      </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href="interfacesport.html"><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                   
+                </div>
+                
+            </header>
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <h1 class="tunisia">In Tunisia</h1>
+            <div class="news">
+                <div class="block">
+                    <div class="title">
+                        <h1>Tunisia is Becoming the Leading DeepTech Hub of Africa</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/tun.jpg" alt="">
+                        <p>Tunisia is officially making big waves in the technology industry. With a rapidly evolving entrepreneurship and innovation ecosystem, Tunisia is positioned itself to become a top destination for entrepreneurship and innovation, especially in DeepTech. The news of BioNTech’s acquisition of Instadeep, a DeepTech startup founded in 2014 in Tunisia by two Tunisians, Karim Beguir and Zohra Slim, for £362 million upfront and an additional £200 million contingent on future performance, shook the Tunisian entrepreneurial and innovation ecosystem to its core. Such acquisitions are always seen as significant milestones in the development of ecosystems. The
+                            story of Instadeep demonstrates that Tunisian businesses are able to innovate, compete on a global scale, and attract the attention of major IT industry players.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>e-Payment Transactions in Tunisia Hit Yearly All-Time High <br>in 2022</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/pay.jpg" alt="">
+    <p>Comparing the year 2022 to the previous year, Tunisia’s e-payment indicators indicate a strong acceleration of this form of payment. According to the Central Bank of Tunisia (BCT), the number of e-payment transactions climbed by 26% to 12.5 million in 2022, compared to 9.9 million in 2021. The value of digital payments in Tunisia has reached 831,3 million dinars, up from 576,9 million dinars in 2021, a 44% increase. Fairly, between 2021 and 2022, the number of merchant websites increased by 10%, from 1,436 to 1,583.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>LinkedIn Surpasses 1.7m Members in Tunisia</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/stat.png" alt="">
+    <p>LinkedIn is attracting an increasing number of Tunisians. Formerly used mainly as a means of creating links between people, it is gaining significant popularity among both Tunisians and Tunisian companies. As of January 2023, most LinkedIn members in Tunisia were aged 25-34 years. This age group accounted for around 60 percent of the total LinkedIn users in the country. Moreover, young people aged 18-24 years represented 26 percent of the registered users, while the 55+ age bracket accounts for only 0.9% of all Tunisian users. In total, more than 1.7 million people used LinkedIn in Tunisia in 2022.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h1 class="titworld">worldwide</h1>
+            <div class="worldwide">
+                <div class="block">
+                    <div class="title">
+                        <h1>C-3PO Style Humanoid Robots Thrive From Surge in AI Development</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/robot.jpg" alt="">
+                        <p>A collateral beneficiary of the feverish pace of generative artificial intelligence development appears to be the humanoid robot. A Norwegian company called 1X Technologies, formerly Halodi Robotics, which describes itself as a manufacturer and inventor of androids, recently attracted $23.5 million in a round of funding led by the OpenAI Startup Fund “1X is at the forefront of augmenting labor through the use of safe, advanced technologies in robotics,” Brad Lightcap, OpenAI’s COO and manager of the OpenAI Startup Fund, said in a statement. “The OpenAI Startup Fund believes in the approach and impact that 1X can have on the future of work.”</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>How Generative AI Will Transform Cybersecurity</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/sec.jpg" alt="">
+                        <p>Microsoft last week announced that, just as it did with .NET
+                            years ago, it will be putting generative AI into everything,
+                            including security.
+                            Back in the .NET days, I joked that Microsoft was so over the
+                            top with .Net that the bathrooms were renamed Men.net and
+                            Women.net. Many of those efforts didn’t make a ton of sense.
+                            However, given that generative AI impacts most of what
+                            Microsoft does (except the bathrooms), it makes more sense
+                            for the company to do this now than it did then.
+                            Let’s explore how generative AI will impact security. Then we’ll
+                            close with my Product of the Week: the BAC Mono custombuilt,
+                            street-legal track car.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>How Generative AI Will Transform Cybersecurity</h1>
+                    </div>
+                    <div class="new">
+                        <img src="tech/meta.jpg" alt="">
+                        <p>Nvidia’s GTC conference is over, but if you want to see what’s
+                            coming with AI, including generative AI like ChatGPT, robotics,
+                            autonomous electric cars, and the metaverse, watching the keynote by CEO Jensen Huang is worth it. A great deal of Nvidia’s success comes from its work on the metaverse, which comes at a time when Facebook, which changed its name to Meta, has largely failed to bring a successful metaverse product to market.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="*">technologies</a></li>
+                    <li><a href="interfacesport.html">sports</a></li>
+                    <li><a href="health.html">health</a></li>
+                    <li><a href="education.html">education</a></li>
+                    <li><a href="politics.html">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+        
+</body>
+</html>

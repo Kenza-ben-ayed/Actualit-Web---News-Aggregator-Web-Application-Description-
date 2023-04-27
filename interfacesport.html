@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sports</title>
+    <link rel="stylesheet" href="interfacesports.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        #Sports{
+            padding-right: 0px;
+            padding-left: 30px;
+           color: #000;
+           font-weight:700;
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+      </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href=""><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                   
+                </div>
+                
+            </header>
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <h1 class="tunisia">In Tunisia</h1>
+            <div class="news">
+                <div class="block">
+                    <div class="title">
+                        <h1>nWTA ranking: Ons Jabeur ranks 4th in the world </h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/ons.jpg" alt="">
+                        <p>Jabeur started the 2023 season by reaching the semifinals at the Adelaide International 1. At the Australian Open, seeded No. 2, Jabeur prevailed in her first round match against Tamara Zidanšek in three sets before losing in the second round to Markéta Vondroušová in a three set match lasting past midnight. Jabeur, who had complained about knee pain after her first round win, made 50 unforced errors.
+    
+                            In a rematch from the previous year at the WTA 500 2023 Credit One Charleston Open Ons won her fourth title defeating defending champion and fourth seed Belinda Bencic.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Tunisia Cup: minute of silence for the victims of the earthquake</h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/nousour.jpg" alt="">
+                        <p>The Tunisian Football Federation revealed on its Facebook page that a minute of silence will be observed in all the stadiums that will welcome this Sunday the matches of the knockout stages of the Tunisia Cup and this, in memory of the Victims of the earthquake that struck southern Turkey and northeast Syria last Monday.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>CAFCL : Badri manquera JS Kabylie – Espérance</h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/anice_badri_1681944420.jpg" alt="">
+                        <p>La délégation de l’Espérance sportive de Tunis a atteri, ce mercredi soir, à l’aéroport Houari Boumédiène d’Alger, en prévision du match aller des quarts de finale de la Ligue des champions face à la Jeunesse sportive de Kabylie.
+
+                            L’EST sera privée de son milieu Ghaylène Chaâlali et de son ailier jordanien, Faisal Abu Zrayq dit "Sharara", qui sont blessés et de son attaquant Anice Badri, qui n’a pas été convoqué pour ce match.
+                             
+                            Il est à rappeler que ce match est programmé pour ce vendredi à 22h00, heure tunisienne..</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h1 class="titworld">worldwide</h1>
+            <div class="worldwide">
+                <div class="block">
+                    <div class="title">
+                        <h1>Ronaldo signs deal with Saudi club Al-Nassr</h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/ronaldo.jpg" alt="">
+                        <p>The news of Ronaldo’s signing Friday follows months of rumors and speculation as to whether he would join a Saudi team, as more than one had made sizeable offers in the hundreds of millions of dollars.
+
+                            In the summer, Ronaldo turned down an offer from a different Saudi club, Al Hilal, which would have given him a roughly $370 million contract over a number of years. A the time, he chose to stay at Manchester United, saying he was happy there.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Warriors News: Stephen Curry's Foot Injury to Be Reevaluated After Regular Season</h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/stefane.jpg" alt="">
+                        <p>Golden State Warriors star Stephen Curry will be reevaluated after the regular season ends as he continues to recover from a sprained foot, the team announced Friday.
+
+                            Shayna Rubin of the Mercury News first reported the news. 
+                            
+                            The Warriors owned the NBA's worst record (15-50) in 2019-20 before missing the playoffs for the second straight year in 2020-21. It was a precipitous fall for a franchise that was coming off five straight NBA Finals appearances.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>China takes silver while Japan wins men's team title at gymnastics junior worlds</h1>
+                    </div>
+                    <div class="new">
+                        <img src="sports/chine.png" alt="">
+                        <p>Silver medalists team China attend the awarding ceremony for the men's team final at the 2nd Artistic Gymnastics Junior World Championships in Antalya, Türkiye, on March 29, 2023. 
+
+                            ANTALYA, Türkiye, March 29  China settled for silver in the men's team finals on the opening day of the 2nd Artistic Gymnastics Junior World Championships on Wednesday, as a trio of Japanese gymnasts won the title.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="#">technologies</a></li>
+                    <li><a href="#">sports</a></li>
+                    <li><a href="#">health</a></li>
+                    <li><a href="#">education</a></li>
+                    <li><a href="#">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+        
+</body>
+</html>

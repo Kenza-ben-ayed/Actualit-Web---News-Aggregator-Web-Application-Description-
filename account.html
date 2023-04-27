@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <title>Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brawler:wght@700&family=K2D:ital,wght@1,500&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+        </script>
+</head>
+<body> 
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href="interfacesport.html"><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                    
+                </div>
+                <iframe class="frame" id="myIframe" src=""  frameborder=""></iframe>
+                <div class="x">
+                    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+                </div>
+                
+            </header>
+            
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <div class="border">
+    
+                <img class="photo" src="farah.JPG" width="200px" height="200px" alt="">
+                <h1>User : Farah</h1>
+                <div class="ligne">
+                <img src="location-dot-solid.svg" alt="" width="30px" height="30px" class="loc">
+                <h3>Tunis</h3>
+                </div>
+            
+                <hr>
+                <div class="not">
+                    <center><button class="a">Notifications</button>
+                    <button class="b">save</button >
+                    <button class="a"> Setting</button></center>
+                </div>
+            
+            <hr>
+               <div class="reseau">
+            <a href="https://fr-fr.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            
+            </div>
+            <img src="star-regular.svg" alt="" width="40px"height="20px"class="star">
+            <img src="star-regular.svg" alt=""width="40px"height="20px"class="star">
+            <img src="star-regular.svg" alt=""width="40px"height="20px"class="star">
+            
+            <center><button class="disc">Disconnect</button></center>
+                </div>
+    </section>
+  
+<footer class="footer">
+    <div class="container">
+    <div class="row">
+    <div class="footer-col">
+    <h4>navigate</h4>
+    <ul>
+        <li><a href="#"> News</a></li>
+        <li><a href="#">technologies</a></li>
+        <li><a href="interfacesport.html">sports</a></li>
+        <li><a href="#">health</a></li>
+        <li><a href="#">education</a></li>
+        <li><a href="#">politics</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+    <h4>contact</h4>
+     <ul>
+    <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+    <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+    <li><a href="#">+21622222222/+21633333333</a></li>
+    
+    </ul>
+    </div>
+    <div class="footer-col">
+    <h4>get help</h4>
+    <ul>
+    <li><a href="#">report</a></li>
+    <li><a href="#">account&nbsp;manage</a></li>
+    <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+    <li><a href="#">rate us</a></li>
+    </ul>
+    </div>
+<div class="footer-col">
+<h4>follow us</h4>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>

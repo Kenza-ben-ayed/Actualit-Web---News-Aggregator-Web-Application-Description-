@@ -1,0 +1,62 @@
+.appear-from-left {
+  transform: translateX(-100%);
+}
+body {
+    width: 1519px;
+    background-image: url("/AKHBARNA_files/blured.png");
+    background-repeat: no-repeat;
+  }
+
+  
+  
+.sear{
+  background-color: #FFFFFF;
+  z-index: 1;
+  opacity: 1;
+}
+body.fade-out {
+opacity: 0.1;
+transition: 1s smooth;
+  }
+
+
+.logo img {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 240px;
+  height: 62px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+input{
+position: absolute;
+height: 150px;
+width: 1300px;
+left: 122px;
+right: 112px;
+top: 362px;
+bottom: 428px;
+background: #d9d9d97d;
+mix-blend-mode: luminosity;
+backface-visibility:visible;
+border-radius: 40px;
+font-size: 70px;
+color: black;
+  }
+
+h3{
+    position: absolute;
+width: 1234px;
+height: 109px;
+left: 220px;
+top: 150px;
+
+font-family: 'Brawler';
+font-style: normal;
+font-weight:lighter; ;
+font-size: 75px;
+line-height: 109px;
+color: #000000;
+}
+  

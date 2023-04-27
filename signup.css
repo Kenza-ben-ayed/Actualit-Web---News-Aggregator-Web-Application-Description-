@@ -1,0 +1,254 @@
+body{
+    background: linear-gradient(to left, red, black);
+    width: 1519px;
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+    
+}
+.logo{
+    position: fixed;
+    left: 20px;
+}
+.logo img{
+    left: 20px;
+    width: 240px;
+height: 62px;
+padding-right: 0px;
+
+}
+fieldset{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #b3b2b200;
+  }
+  
+
+  fieldset .user svg{
+    width: 60px;
+    position: relative;
+    top:20%;
+    left: 25%;;
+  }
+  fieldset .user {
+    position: relative;
+    top: 45px;
+    left: 38%;
+    color: #ffffff;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-color: #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.808);
+  }
+  
+ 
+  .box {
+  z-index: 1;
+    display:inline-block;
+    justify-content:space-around;
+    align-items: center;
+    height: 450px;
+	width: 500px;
+    background-color: #b3b2b2;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.808);
+}
+
+.a{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    width: 200px;
+    padding-right: 50px;
+}
+.box div  {
+    
+    position: relative;
+    left: 5%;
+    top: 20%;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.box div input{
+    border-radius: 10px;
+}
+.name{
+    position: relative;
+    top: 60px;
+}
+::placeholder{
+    color: #ada4a4;
+
+}
+
+  .log .box input[type="text"] {
+    top: 25%;
+    left: 22%;
+    height: 40px;
+
+  }
+  
+  
+  .submit {
+    position: relative;
+    bottom: -50px;
+    left: 0;
+    
+  }
+ 
+ 
+  .logintext {
+    z-index: -1;
+   position: relative;
+   top: 515px;
+   left: 775px;
+   border-radius: 0px 0px 25px 25px ;
+   transform: translateX(-50%);
+   background-color:#ada4a48b;
+height: 60px;
+   font-size: 20px;
+   width: 240px;
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.808);
+  
+
+  }
+  .logintext h3{
+position: relative;
+bottom: -10px;
+left: 20px;
+font-family: 'Brawler';
+font-weight: 800;
+font-size: larger;
+    transform: translate(25%, 0);
+  }
+  .input{
+    position: relative;
+    bottom: -20px;
+  }
+  .jomla{
+    color: rgb(166, 12, 12);
+    position: relative;
+    top: -10px;
+    left: -30px;
+    font-weight: 700;
+  }
+  .f1,.f2{
+    font-weight: 700;
+    padding-right: 20px;
+  }
+  #f2{
+    position: relative;
+    left: 4px;
+  }
+  /*try*/
+  fieldset a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:red;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 15px;
+    margin-left: 150px;
+    letter-spacing: 4px
+  }
+  
+  fieldset a:hover {
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px red,
+                0 0 25px red,
+                0 0 50px red,
+                0 0 100px red;
+  }
+  
+  fieldset a span {
+    position: absolute;
+    display: block;
+  }
+  
+  fieldset a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, red);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  fieldset a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, red);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  fieldset a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, red);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  fieldset a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, red);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  

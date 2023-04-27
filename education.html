@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="interfacesports.css">
+    <script src="https://kit.fontawesome.com/63cf21ff43.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        #myIframe {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            
+        }
+        .sear {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+          }
+          .no{
+    
+            display: none;
+            margin: auto;
+            cursor: pointer;
+          }
+          .x img{
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            width: 50px;
+            height: 200px;
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          #Education{
+            
+            color: #000;
+            font-weight:700;
+         }
+      </style>
+      <script>
+        function showIframe() {
+          // Get the iframe element by its ID
+          var iframe = document.getElementById('myIframe');
+          var x=document.getElementById('no');
+          var user=document.getElementById('user');
+          // Set the iframe source to the desired URL
+          iframe.src = 'searchpage.html';
+          // Show the iframe by changing its display property
+          iframe.style.display = 'block';
+          no.style.display = 'block';
+          user.style.display = 'none';
+        }
+        function dontshowIframe() {
+            // Get the iframe element by its ID
+            var iframe = document.getElementById('myIframe');
+            var x=document.getElementById('no');
+            var user=document.getElementById('user');
+            // Set the iframe source to the desired URL
+            iframe.src = 'searchpage.html';
+            // Show the iframe by changing its display property
+            iframe.style.display = 'none';
+            no.style.display = 'none';
+            user.style.display = 'block';
+            
+          }
+          function toggleMenu() {
+            // Get the menu element by its ID
+            var menu = document.getElementById('mymenu');
+            // Check the current display property of the menu
+            if (menu.style.display === 'none') {
+              // If it's hidden, show it
+              menu.style.display = 'block';
+            } else {
+              // If it's visible, hide it
+              menu.style.display = 'none';
+            }
+          }
+      </script>
+</head>
+<body>
+    <section class="sec1">
+        <header class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="first page.html"><img src="akhbarna.png" alt=""></a>
+                </div>
+                <div class="navbar">
+                    <ul class="list">
+                        <a href=""><li id="Actualities">Actualities</li></a>
+                        <a href="tachnologie.html"><li id="Technologies">Technologies</li></a>
+                        <a href="interfacesport.html"><li class="active" id="Sports">Sports</li></a>
+                        <a href="education.html"><li id="Education">Education</li></a>
+                        <a href="health.html"><li id="Health">Health</li></a>
+                        <a href="politics.html"><li id="Politics">Politics</li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <img class="sear"src="magnifying-glass-solid.svg" alt="" onclick="showIframe()">
+  <iframe class="frame" id="myIframe" src=""  frameborder="0"></iframe>
+  <div class="x">
+    <img class="no" id="no" src="x-solid.svg" alt="" onclick="dontshowIframe()">
+</div>
+                </div>
+                <div class="user">
+                    <img id="user" src="user-solid.svg" alt="menu-user" class="menu-user" onclick="toggleMenu()">                   
+                </div>
+                
+            </header>
+            <div class="menu" id="mymenu">
+                <ul>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="#">My&nbsp;reports</a></li>
+                    <li><a href="#">registrement</a></li>
+                    <li><a href="#">settings</a></li>
+                    <li><a href="#">get help</a></li>
+                </ul>
+            </div>
+            <h1 class="tunisia">In Tunisia</h1>
+            <div class="news">
+                <div class="block">
+                    <div class="title">
+                        <h1>nTunisia-Ministry of Education: postponement of exams in public and private schools</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/tun.jpg" alt="">
+<p>Nadia Ayari, director general of primary education with the Ministry of Education stated today that a circular will soon be published to declare the postponement of first-quarter exams in public and private schools.
+
+    She clarified that only the written tests of the first quarter will be maintained after the winter holidays.
+    
+    According to her, this will permit primary learners in public schools, affected by the strike of temporary teachers, to take advantage of 3 weeks of additional teaching.</p>    
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>From April 10 to 19: 126,210 students pass the sports baccalaureate</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/bac.jpg" alt="">
+    
+<p>Quelque 126210 élèves passent cette année les épreuves du bac sport du 10 au 19 avril en cours. Ils sont répartis sur 255 centres à travers le pays.
+
+    « Toutes les mesures nécessaires ont été prises pour assurer le bon déroulement des épreuves du bac sport dans tous les centres à travers le pays », a assuré lundi le ministre de l’éducation, Mohamed Ali Boughdiri. Assistant au démarrage des épreuves du bac sport au centre national d’athlétisme de Radès, le ministre a déclaré aux médias que le département est en train de se préparer activement à tous les examens et concours nationaux afin qu’ils aient lieu dans les délais et dans de bonnes conditions.</p>                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Secondary: the signing of an agreement with the Ministry of Education denied by the union</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/jem3a.png" alt="">
+    
+<p>The Deputy Secretary General of the General Federation of Secondary Education, Nabil Hamrouni, said on Thursday that the information circulating concerning the signing of an agreement with the Ministry of Education are only rumours, stressing that the Negotiations between the two parties are continuing.
+    He added, in a statement to TAP, that no progress has been made except for the staggered recruitment of substitute teachers.</p>                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h1 class="titworld">worldwide</h1>
+            <div class="worldwide">
+                <div class="block">
+                    <div class="title">
+                        <h1>UP plans to Introduce Digital Literacy and Coding Programs in Upper Primary Schools</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/school.png" alt="">
+    
+<p>The education department in Uttar Pradesh is considering implementing the Digital Literacy, Coding, and Computational Literacy Program (DLCC) in upper primary schools. 
+
+    The goal of the program is to give students a basic and practical understanding of coding. In a pilot program conducted in partnership with the HCL Foundation, 26 schools in Hardoi district were involved, and it was discovered that students had a good grasp of basic coding concepts. According to Alok Varma, the project director for Samuday at HCL Foundation, has been quoted as saying, “More than 81% of KGBV and 98% of Composite schools’ students</p>                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>Indians keen on learning courses for career growth: Pearson Skills Outlook report</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/indian.jpg" alt="">
+    
+                            <p>21st April, 88% of workers in India, expect to continue learning and training throughout their career to stay relevant and attractive to employers, a new Pearson Skills Outlook report themed ‘Employee View’ has revealed. The report, second in the Skills Outlook series, highlights the shift in the attitude of the workforce towards upskilling, as they expect and explore learning and development, for their entire lifetime. A majority of the respondents who participated in the survey for the report, believe that learning a new language, specifically English, would help them advance in their careers.</p>
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="title">
+                        <h1>A new perspective on learning: Qatar's 2030 vision for child education</h1>
+                    </div>
+                    <div class="new">
+                        <img src="edu/qatar.jpg" alt="">
+    <p>Qatar has a vision for the coming years: to transform Qatar “into an advanced country by 2030, capable of sustaining its own development and providing for a high standard of living for all of its people for generations to come.”
+
+        At its core, are four pillars; human development, economic development, social development, and environmental development, all aimed at driving the country forwards.
+        
+        In this episode of Qatar 365, which you can watch above, Euronews’ Laila Humairah and Aadel Haleem explore how education is being used as a tool for progress in Qatar, and the way in which the country is designing new and more accessible ways of learning.</p>
+                            
+                    </div>
+                    <div class="icons">
+                        <div class="icon"><img id="heart" src="heart-regular.svg" alt=""><label for="">Save</label> </div>
+                        <div class="icon"><img id="comment" src="comment-regular.svg" alt=""><label for="">Comments</label> </div>
+                        <div class="icon"><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt=""><img id="star" src="star-regular.svg" alt="">
+                            <label for="">Evaluate</label> </div>
+                        <div class="icon"><img id="heart" src="up-right-from-square-solid.svg" alt=""><label for="">Share</label> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sec3">
+            <footer class="footer">
+                <div class="container">
+                <div class="row">
+                <div class="footer-col">
+                <h4>navigate</h4>
+                <ul>
+                    <li><a href="#"> News</a></li>
+                    <li><a href="#">technologies</a></li>
+                    <li><a href="#">sports</a></li>
+                    <li><a href="#">health</a></li>
+                    <li><a href="#">education</a></li>
+                    <li><a href="#">politics</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>contact</h4>
+                 <ul>
+                <li><a href="akhbarna@gmail.com" type="email">akhbarna@gmail.com</a></li>
+                <li><a href="teamakhbarna@gmail.com" type="email">teamakhbarna@gmail.com</a></li>
+                <li><a href="#">+21622222222/+21633333333</a></li>
+                
+                </ul>
+                </div>
+                <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                <li><a href="#">report</a></li>
+                <li><a href="#">account&nbsp;manage</a></li>
+                <li><a href="#">live&nbsp;a&nbsp;comment</a></li>
+                <li><a href="#">rate us</a></li>
+                </ul>
+                </div>
+            <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+          </footer>
+        </section>
+        
+</body>
+</html>
